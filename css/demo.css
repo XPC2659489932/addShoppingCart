@@ -1,0 +1,61 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.ditem{
+	width: 220px;
+	height: 350px;
+    border: 1px solid #ccc;
+    float: left;
+    margin: 5px;
+}
+#all{
+	width: 700px;
+	height: 100%;
+}
+
+.dprice{
+	font-size: 22px;
+	margin: 2px;
+	text-align: center;
+	color: red;
+	font-weight: bold;
+}
+
+.ddesc{
+	font-size: 14px;
+}
+
+.dshopping a{
+	width: 150px;
+	height: 36px;
+	text-align: center;
+	border-radius: 10px;
+	background-color: #ff6a00;
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	font-size: 18px;
+	line-height: 36px;
+	margin: 10px auto;
+}
+
+#dcart{
+	width: 72px;
+	height: 63px;
+	position: absolute;
+	background-image: url("../img/car.jpg");
+	right: 0;
+	top: 300px;
+}
+
+#dcount{
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	color: #fff;
+	background-color: red;
+	text-align: center;
+	line-height: 20px;
+}
